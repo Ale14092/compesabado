@@ -12,11 +12,11 @@ void solve()
        else
             c++,c1*=d,d=1,b++;
    }
+   c1*=d;
    if(c==c2) cout<<"2\n";
-    else if(b>0)
-    cout<<c1<<'\n';
     else
-    cout<<d<<'\n';
+    cout<<c1<<'\n';
+
 }
 main()
 {
